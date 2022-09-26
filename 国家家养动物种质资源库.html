@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <title>家养动物种质信息共享平台</title>
+    <link rel="stylesheet" href="./国家家养动物种质资源库_files/main2.css">
+    <link rel="stylesheet" href="./国家家养动物种质资源库_files/style.css">
+    <link rel="stylesheet" href="./国家家养动物种质资源库_files/layui.css" media="all">
+    <style>
+        .news-wrap .news-txt {
+            width: 460px;
+            margin-left: 30px
+        }
+        
+        .news-wrap .news-list li {
+            width: 90%
+        }
+ 
+        .news-image1 {
+            width: 360px
+        }
+        
+        .more-btn {
+            margin-right: 30px
+        }
+        
+        .img-edge-cover img {
+            display: block;
+            margin-bottom: 20px
+        }
+        
+        .swiper-container {
+            width: 1204px
+        }
+        
+        .logo11 {
+            width: 122px
+        }
+        
+        .logo12 {
+            width: 380px
+        }
+        
+        .pg-header .search-box .search-con .input-text {
+            color: #9c9c9c
+        }
+    </style>
+
+    <link rel="stylesheet" href="./国家家养动物种质资源库_files/layer.css" id="layui_layer_skinlayercss" style="">
+    <link rel="stylesheet" href="./国家家养动物种质资源库_files/laydate.css" id="layuicss-laydate">
+    <script src="./国家家养动物种质资源库_files/configs.php" async="" defer=""></script>
+</head>
+
+<body>
+    <header class="pg-header">
+        <div class="wid">
+            <div class="logo-wrap">
+                <a href="" title="中国科技资源共享网" class="logo11" target="_blank">
+                    <img src="./国家家养动物种质资源库_files/logo11.png" style="width:113px;height:79px">
+                </a>
+                <a href="" class="logo12" title="国家家养动物种质资源库">
+                    <img src="./国家家养动物种质资源库_files/logo14.png" style="width:370px;height:84px">
+                </a>
+            </div>
+            <div class="bar-right">
+                <div class="btns">
+                    <a href="http://www.cdad-is.org.cn/admin/Login/index_login" class="active">登录</a>|<a href="http://www.cdad-is.org.cn/admin/Login/register">注册</a>
+                </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- banner-wrap -->
+    <div class="banner-wrap">
+        <div class="nav wid">
+            <ul>
+                <li>
+                    <a href="" class="active"> <img src="./国家家养动物种质资源库_files/icon_home.png" alt="">首页</a>
+                </li>
+                <li>
+                    <a href="">平台概况</a>
+                </li>
+                <li>
+                    <a href="">种质库浏览</a>
+                    <i class="icon-arr"> <img src="./国家家养动物种质资源库_files/arr-bt.png" alt=""> </i>
+                    <div class="sub" style="display: none;">
+                        <div class="con">
+                            <img src="./国家家养动物种质资源库_files/a11.jpg" alt="">
+                            <div class="sub-list">
+                                <div class="item">
+                                    <a href="">品种信息概览</a>
+                                </div>
+                                <div class="item">
+                                    <a href="">种质资源浏览</a>
+                                </div>
+                                <div class="item">
+                                    <a href="">可视化展示</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">共享服务</a>
+                </li>
+                <li>
+                    <a href="">联系我们</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="notice-wrap wid">
+            <div class="icon-notice"> <img src="./国家家养动物种质资源库_files/icon_notice.png" alt=""></div>
+            <div class="swiper-container swiper-container-initialized swiper-container-vertical">
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-container banner-swiper-container swiper-container-initialized swiper-container-horizontal">
+            <div class="swiper-wrapper" style="transition-duration: 2000ms; transform: translate3d(-6020px, 0px, 0px);">
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="width: 1204px;">
+                    <a href="http://www.cdad-is.org.cn/admin/Commdscribe/view2?id=361" target="_blank" title="大额牛" style="background-image:url(http://www.cdad-is.org.cn/static/assets/jydw/images/04.jpg)">
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 1204px;">
+                    <a href="" style="background-image:url(http://www.cdad-is.org.cn/static/assets/jydw/images/01.jpg)">
+                    </a>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="1" style="width: 1204px;">
+                    <a href="" target="_blank" title="北京鸭" style="background-image:url(http://www.cdad-is.org.cn/static/assets/jydw/images/02.jpg)">
+                    </a>
+                </div>
+                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 1204px;">
+                    <a href="" target="_blank" title="北京油鸡" style="background-image:url(http://www.cdad-is.org.cn/static/assets/jydw/images/03.jpg)">
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="3" style="width: 1204px;">
+                    <a href="" target="_blank" title="大额牛" style="background-image:url(http://www.cdad-is.org.cn/static/assets/jydw/images/04.jpg)">
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="width: 1204px;">
+                    <a href="" style="background-image:url(http://www.cdad-is.org.cn/static/assets/jydw/images/01.jpg)">
+                    </a>
+                </div>
+            </div>
+    </div>
+
+    <style>
+        .swiper-container1 {
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            list-style: none;
+            padding: 0;
+            z-index: 1;
+            height: 228px;
+        }
+        
+        .news-wrap .news-image img {
+            width: 323px;
+        }
+        
+        .news-wrap .news-image .swiper-pagination .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+            border: 1px solid #FFF;
+            background: #0;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            opacity: 1;
+            margin: 2px;
+        }
+        
+        .swiper-container-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 15px;
+            text-align: right;
+            padding-right: 20px;
+        }
+        /*
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #007aff;
+} */
+        
+        .news-wrap .news-image .swiper-pagination .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: #fff;
+        }
+        
+        .news-wrap .news-image .bt-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+            background: rgba(84 146 203 /.8);
+            padding: 0 20px 0 14px;
+            height: 40px;
+            line-height: 40px;
+            overflow: hidden;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #fff;
+            margin-left: 8px;
+            width: 323px;
+            font-size: 14px;
+        }
+        
+        .num-wrap li:first-child a {
+            color: #EF8A3D;
+        }
+        
+        .num-wrap li:nth-child(2) a {
+            color: #60C29B;
+        }
+        
+        .num-wrap li:nth-child(3) a {
+            color: #8F75BE;
+        }
+        
+        .num-wrap li:nth-child(4) a {
+            color: #5575CF;
+        }
+        
+        .num-wrap li:nth-child(5) a {
+            color: #DE759D;
+        }
+    </style>
+
+
+    <!-- banner-wrap-end -->
+    <!-- content-box -->
+    <div class="content-box wid">
+        <div class="news-wrap mt-20">
+            <div class="news-image1">
+                <header class="n-hd">
+                    <div class="tabs">
+                        <span class="active">平台简介</span>
+                    </div>
+                    <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=114" class="more-btn">更多<img src="./国家家养动物种质资源库_files/icon_more.png" alt=""></a>
+                </header>
+                <div class="ptjj"> 家养动物种质资源库是国家科技基础条件平台的重要组成部分。长期以来，依托单位中国农业科学院北京畜牧兽医研究所按照国家科技基础条件平台的总体规划和统一部署，相继展开家养动物种质资源收集、整理、整合和保存理论及技术方法的研究、遗传资源评价、功能基因挖掘、各项管理和规章制度的制定、共性和特性描述规范的制定、技术标准的制定......
+                </div>
+                <div class="news-image">
+                    <div class="swiper-container1 swiper-container-fade swiper-container-initialized swiper-container-horizontal">
+                        <div class="swiper-wrapper" style="transition-duration: 5000ms;">
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="3" style="width: 340px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 5000ms;">
+                                    <img src="./国家家养动物种质资源库_files/61bea4e7a6149.jpg" alt="">
+                                    <div class="bt-info">
+                                        [视频]胡春华调研畜禽种源保护与利用工作并出席专家座谈会 </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="1" style="width: 340px; opacity: 1; transform: translate3d(-680px, 0px, 0px); transition-duration: 5000ms;">
+                                <img src="./国家家养动物种质资源库_files/61beab4e9cd13.jpg" alt="">
+                                <div class="bt-info">
+                                    种质库牵头单位牧医所育成白羽肉鸡新品种 打破国外种源垄断 </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="width: 340px; opacity: 1; transform: translate3d(-1020px, 0px, 0px); transition-duration: 5000ms;">
+                                <img src="./国家家养动物种质资源库_files/61bea503e2423.jpg" alt="">
+                                <div class="bt-info">
+                                    热烈祝贺国家家养动物种质资源库理事侯水生研究员当选中国工程院院士 </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="3" style="width: 340px; opacity: 1; transform: translate3d(-1360px, 0px, 0px); transition-duration: 5000ms;">
+                                <img src="./国家家养动物种质资源库_files/61bea4e7a6149.jpg" alt="">
+                                <div class="bt-info">
+                                    [视频]胡春华调研畜禽种源保护与利用工作并出席专家座谈会 </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 340px; opacity: 0; transform: translate3d(-1700px, 0px, 0px); transition-duration: 5000ms;">
+                                <img src="./国家家养动物种质资源库_files/61d41ac914e9c.jpg" alt="">
+                                <div class="bt-info">
+                                    畜禽种质资源濒危等级评定应用程序上线啦！ </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <!--<div class="swiper-pagination"></div>-->
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+
+            </div>
+            <div class="news-image1">
+                <header class="n-hd">
+                    <div class="tabs">
+                        <span class="active">新闻动态</span>
+                    </div>
+                    <a href="http://www.cdad-is.org.cn/admin/Zylist/xw_index" class="more-btn">更多<img src="./国家家养动物种质资源库_files/icon_more.png" alt=""></a>
+                </header>
+                <div class="news-list-box">
+                    <div class="item">
+                        <ul class="news-list" id="CodeGoodsTable">
+                            <li>
+                                <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=134&amp;type=xw" target="_blank">畜禽种质资源濒危等级评定应用程序上线啦！</a>
+                                <span class="time">2022-01-04</span>
+                            </li>
+                            <li>
+                                <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=133&amp;type=xw" target="_blank">来自青藏高原畜禽遗传资源珍宝的故事[转载自农民日报]</a>
+                                <span class="time">2021-12-29</span>
+                            </li>
+                            <li>
+                                <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=132&amp;type=xw" target="_blank">我国家马种质资源体高性状鉴定取得重要突破</a>
+                                <span class="time">2021-12-20</span>
+                            </li>
+                            <li>
+                                <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=131&amp;type=xw" target="_blank">国家家养动物种质资源库召开2021年度任务申请评审会</a>
+                                <span class="time">2021-12-08</span>
+                            </li>
+                            <li>
+                                <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=130&amp;type=xw" target="_blank">种质库牵头单位牧医所育成白羽肉鸡新品种 打破国外种源垄断</a>
+                                <span class="time">2021-12-04</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <ul class="news-list">
+                            <li>
+                                <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=124&amp;type=al" target="_blank">花山麻鸡配套系的选育</a>
+                                <span class="time">2021-11-04</span>
+                            </li>
+                            <li>
+                                <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=121&amp;type=al" target="_blank">服务案例测试</a>
+                                <span class="time">2020-09-27</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-item mt-20">
+            <header class="comm-header">
+                <span class="title"> <img src="./国家家养动物种质资源库_files/icon_hd01.png" alt="">新闻动态</span>
+                <!--     <a href="" class="more">
+                    更多
+                </a> -->
+            </header>
+            <div class="news-list-box">
+                <div class="item">
+                    <ul class="news-list" id="CodeGoodsTable">
+                        <li>
+                            <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=134&amp;type=xw" target="_blank">畜禽种质资源濒危等级评定应用程序上线啦！</a>
+                            <span class="time">2022-01-04</span>
+                        </li>
+                        <li>
+                            <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=133&amp;type=xw" target="_blank">来自青藏高原畜禽遗传资源珍宝的故事[转载自农民日报]</a>
+                            <span class="time">2021-12-29</span>
+                        </li>
+                        <li>
+                            <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=132&amp;type=xw" target="_blank">我国家马种质资源体高性状鉴定取得重要突破</a>
+                            <span class="time">2021-12-20</span>
+                        </li>
+                        <li>
+                            <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=131&amp;type=xw" target="_blank">国家家养动物种质资源库召开2021年度任务申请评审会</a>
+                            <span class="time">2021-12-08</span>
+                        </li>
+                        <li>
+                            <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=130&amp;type=xw" target="_blank">种质库牵头单位牧医所育成白羽肉鸡新品种 打破国外种源垄断</a>
+                            <span class="time">2021-12-04</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <ul class="news-list">
+                        <li>
+                            <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=124&amp;type=al" target="_blank">花山麻鸡配套系的选育</a>
+                            <span class="time">2021-11-04</span>
+                        </li>
+                        <li>
+                            <a href="http://www.cdad-is.org.cn/admin/Login/show_detail.html?id=121&amp;type=al" target="_blank">服务案例测试</a>
+                            <span class="time">2020-09-27</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-item mt-20">
+        <header class="comm-header">
+            <span class="title"> <img src="./国家家养动物种质资源库_files/icon_hd01.png" alt="">入库资源</span>
+        </header>
+        <div class="item-box">
+            <ul class="num-wrap">
+                <li>
+                    <a href="">
+                        <div class="num">24635</div>
+                        <div class="name">品种信息</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="num">9355</div>
+                        <div class="name">种质资源</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="num">9355</div>
+                        <div class="name">图片</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="num">45</div>
+                        <div class="name">共享案例</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="comm-header">
+        <span class="title"> <img src="./国家家养动物种质资源库_files/icon_hd01.png" alt="">种质库概览</span>
+        <!--     <a href="" class="more">
+                更多
+            </a> -->
+    </header>
+    <div class="item-box">
+        <ul class="num-wrap">
+            <li style="background-image:url(http://www.cdad-is.org.cn/static/assets/jydw/images/tab01_bg.png)">
+                <a href="">
+                    <figure class="icon">
+                        <img src="./国家家养动物种质资源库_files/icon_tab01.png" alt="">
+                    </figure>
+                    <p>品种信息库</p>
+                </a>
+            </li>
+            <li style="background-image:url(http://www.cdad-is.org.cn/static/assets/jydw/images/tab02_bg.jpg)">
+                <a href="">
+                    <figure class="icon">
+                        <img src="./国家家养动物种质资源库_files/icon_tab02.png" alt="">
+                    </figure>
+                    <p>种质资源库</p>
+                </a>
+            </li>
+            <li style="background-image:url(http://www.cdad-is.org.cn/static/assets/jydw/images/tab04_bg.jpg)">
+                <a href="" target="_blank">
+                    <figure class="icon">
+                        <img src="./国家家养动物种质资源库_files/icon_tab04.png" alt="">
+                    </figure>
+                    <p>可视化展示</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main-item mt-20">
+        <header class="comm-header">
+            <span class="title"> <img src="./国家家养动物种质资源库_files/icon_hd02.png" alt="">共享服务</span>
+            <!--    <a href="" class="more">
+                    更多
+                </a> -->
+        </header>
+
+        <div class="item-box">
+            <ul class="service-items">
+                <li>
+                    <a href="http://www.cdad-is.org.cn/admin/Login/gxfw">
+                        <img src="./国家家养动物种质资源库_files/p1.png" alt="">
+                        <p class="name">
+                            服务说明
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.cdad-is.org.cn/admin/Login/gxfw">
+                        <img src="./国家家养动物种质资源库_files/p2.png" alt="">
+                        <p class="name">
+                            种质资源获取
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.cdad-is.org.cn/admin/Login/zyjz">
+                        <img src="./国家家养动物种质资源库_files/p3.png" alt="">
+                        <p class="name">
+                            种质资源捐赠
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
